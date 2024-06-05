@@ -1,0 +1,61 @@
+# CTE Query to find the TOP 10 CUSTOMERS by Amount Paid
+
+WITH Top_Countries AS (
+    SELECT
+        Country.country
+    FROM
+        customer Customer
+    JOIN
+        address Address ON Customer.address_id = Address.address_id
+    JOIN
+        city City ON Address.city_id = City.city_id
+    JOIN
+        country Country ON City.country_id = Country.country_id
+    GROUP BY
+        Country.country
+    ORDER BY
+        COUNT(Customer.customer_id) DESC
+    LIMIT 10),
+Top_Cities AS (
+    SELECT
+        City.city,
+        Country.country
+    FROM
+        customer Customer
+    JOIN
+        address Address ON Customer.address_id = Address.address_id
+    JOIN
+        city City ON Address.city_id = City.city_id
+    JOIN
+        country Country ON City.country_id = Country.country_id
+    WHERE
+        Country.country IN (SELECT country FROM Top_Countries)
+    GROUP BY
+        Country.country, City.city
+    ORDER BY
+        COUNT(Customer.customer_id) DESC
+    LIMIT 10)
+SELECT
+    Customer.customer_id,
+    Customer.first_name,
+    Customer.last_name,
+    Country.country,
+    City.city,
+    SUM(Payment.amount) AS "Total Amount Paid"
+FROM
+    payment Payment
+JOIN
+    customer Customer ON Payment.customer_id = Customer.customer_id
+JOIN
+    address Address ON Customer.address_id = Address.address_id
+JOIN
+    city City ON Address.city_id = City.city_id
+JOIN
+    country Country ON City.country_id = Country.country_id
+JOIN
+    Top_Cities ON City.city = Top_Cities.city AND Country.country = Top_Cities.country
+GROUP BY
+    Customer.customer_id, Customer.first_name, Customer.last_name, Country.country, City.city
+ORDER BY
+    "Total Amount Paid" DESC
+LIMIT 10;
