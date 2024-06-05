@@ -39,7 +39,3 @@ macOS | Excel | DbVisualizer | PostgreSQL | Tableau | Canva
 ### Final results for our technical colleagues
 - SQL queries and outputs
 - Data dictionary
-  
-![DATA ANALYSIS PROJECT](https://github.com/paulaavz/SQL_Rockbuster_Stealth_Data_Analysis_Project/assets/140116751/b6d8e0cd-d73a-41e7-8e01-088ecec3f401)
-
-![DATA DICTIONARY](https://github.com/paulaavz/SQL_Rockbuster_Stealth_Data_Analysis_Project/assets/140116751/6036e8e8-8d8d-4326-b5cf-fa356e34438e)
