@@ -23,7 +23,7 @@ The  Rockbuster  Stealth  Management  Board  has  asked  a  series  of  business
 ●	Download  the  Rockbuster  data  set: http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
 
 # Tools used:
-macOS | Excel | PostgreSQL | Tableau | Canva
+macOS | Excel | DbVisualizer | PostgreSQL | Tableau | Canva
 
 # Project  Deliverables :
 ●	Write moderately complex SQL queries to answer business questions.   
@@ -33,12 +33,11 @@ macOS | Excel | PostgreSQL | Tableau | Canva
 
 # Documents provided:
 ### Project brief
-### Tableau visualizations
 ### Final results for business managers
 - Presentation to present my SQL results
-- Tableau visualizations included in the presentation
+- Tableau visualizations included in the presentation: https://public.tableau.com/app/profile/paula.alvarez1137/viz/RockbusterStealthProject_17147635869760/RockbusterStealthProject
 ### Final results for our technical colleagues
-- Excel
+- SQL queries and outputs
 - Data dictionary
   
 ![DATA ANALYSIS PROJECT](https://github.com/paulaavz/SQL_Rockbuster_Stealth_Data_Analysis_Project/assets/140116751/b6d8e0cd-d73a-41e7-8e01-088ecec3f401)
