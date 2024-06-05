@@ -2,6 +2,7 @@
 Developed moderately complex SQL queries to address business questions. Created a presentation with SQL results and visualizations in Tableau for Rockbuster Stealth's business managers. Compiled SQL queries and data output in Excel for technical colleagues and prepared a data dictionary.
 
 ![Logo](https://github.com/paulaavz/SQL_Rockbuster_Stealth_Data_Analysis_Project/assets/140116751/b1556574-4dae-4f7b-b7c1-6002fad66fc1)
+
 # Project Overview
 Rockbuster Stealth LLC is a movie rental company that used to have stores around the  world.
 Facing stiff competition from streaming services such as Netflix and Amazon Prime,  the Rockbuster Stealth management team is planning to use its existing movie licenses to  launch an online video rental service in order to stay competitive. 
@@ -20,7 +21,7 @@ The  Rockbuster  Stealth  Management  Board  has  asked  a  series  of  business
 ●	Do sales figures vary between geographic regions?   
 
 # Data set:
-●	Download  the  Rockbuster  data  set: http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
+●	Download  [here  Rockbuster  data  set](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
 
 # Tools used:
 macOS | Excel | DbVisualizer | PostgreSQL | Tableau | Canva
@@ -32,10 +33,10 @@ macOS | Excel | DbVisualizer | PostgreSQL | Tableau | Canva
 
 
 # Documents provided:
-### Project brief
-### Final results for business managers
+### - Project brief
+### - Final results for business managers
 - Presentation to present my SQL results
-- Tableau visualizations included in the presentation: https://public.tableau.com/app/profile/paula.alvarez1137/viz/RockbusterStealthProject_17147635869760/RockbusterStealthProject
-### Final results for our technical colleagues
+- Tableau visualizations included in the presentation, [link here](https://public.tableau.com/app/profile/paula.alvarez1137/viz/RockbusterStealthProject_17147635869760/RockbusterStealthProject)
+### - Final results for our technical colleagues
 - SQL queries and outputs
 - Data dictionary
