@@ -35,7 +35,7 @@ macOS | Excel | DbVisualizer | PostgreSQL | Tableau | Canva
 # Documents provided:
 ### - Project brief
 ### - Final results for business managers
-- Presentation to present my SQL results
+- Presentation to present my SQL results, [link here](https://github.com/paulaavz/SQL_Rockbuster_Stealth_Data_Analysis_Project/blob/main/Rockbuster%20Stealth%20LLC_presentation.pdf)
 - Tableau visualizations included in the presentation, [link here](https://public.tableau.com/app/profile/paula.alvarez1137/viz/RockbusterStealthProject_17147635869760/RockbusterStealthProject)
 ### - Final results for our technical colleagues
 - SQL queries and outputs
